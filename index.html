@@ -1,0 +1,246 @@
+<!doctype html>
+<html>
+<head>
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+<meta charset="utf-8">
+<title>Batalla de Puebla</title>
+
+<!--grupo CSS-->
+<link rel="stylesheet" type="text/css" href="css/tema-app6.min.css">
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<!--grupo JavaScrip-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<!--  <script src="js/acciones.js"></script> -->
+<script src="phonegap.js"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+<body onLoad="MM_preloadImages('imagenes/imagen6.png','imagenes/imagen8.png','imagenes/imagen5.png')">
+<div data-role="page" id="Principal" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar"data-back-btn-theme="b">
+  </head>
+   <h1>Datos personales del alumno</h1>
+  </div>
+  <div data-role="main" class="ui-content">
+ <div data-role="collapsible" data-theme="false">
+  <h1>Foto del Perfil</h1>
+ <div>
+  <p>Esta es mi imagen de perfil:</p>
+  <br>
+ </div>
+ <div>
+ <img src="imagenes/batalla1.png">
+ </div>
+ </div>
+ </div>
+ <div>
+  <div data-role="main" class="ui-content">
+ <div data-role="collapsible" data-theme="false">
+  <h1>Batalla de Puebla</h1>
+ <div>
+  <p>Batalla de Puebla:</p>
+  <br>
+ </div>
+ <div>
+   <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image28','','imagenes/imagen5.png',1)"><img src="imagenes/imagen11.png" width="971" height="711" id="Image28"></a> </div>
+ </div>
+ </div>
+  <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+   <li class="ui-first-child ui-last-child">
+   <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>4 de Mayo</h2>
+   </a>
+   </li>
+   <li class="ui-first-child ui-last-child">
+   <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>5 de Mayo</h2>
+   </a>
+  </li>
+  <li class="ui-first-child ui-last-child">
+   <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>Inicio del conflicto de la batalla</h2>
+   </a>
+  </li>
+  <li class="ui-first-child ui-last-child">
+   <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>menumentos de la batalla y museos</h2>
+   </a>
+  </li>
+  <li class="ui-first-child ui-last-child">
+   <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>herues de la batalla</h2>
+   </a>
+  </li>
+ </ul>
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+  <img src="imagenes/Mexico-icon.png" width="46" height="46">
+ </div>
+ <div>
+  <h4>Aplicacion seis</h4>
+  <h4> Lisbeth Flores Olivares </h4>
+ </div>
+ </div>
+ </div>
+ <div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+  <h1>4 de Mayo</h1>
+ </div>
+  <div data-role="content" aling"center">
+  <div>
+   <p>Desde la etapa de colonización hispana, fue un lugar privilegiado y codiciado.  Sus condiciones de fertilidad, abundancia de agua y mano de obra, propiciaron una gran riqueza agrícola basada en el cultivo del trigo, por lo que fue considerada como “el primer granero de la Nueva España”.  Su importancia económica ha sido plasmada en diversos testimonios de aquella época recogidos en el libro “Antigua Villa de Carrión”, de la autoría de Marco Díaz.
+
+Su participación en la causa de la Independencia, -donde destacan José Luis Rodríguez de Alconedo y Francisco Pablo Vázquez-  le otorgaron, de parte del General Nicolás Bravo en 1843 la denominación de “Noble y Leal Ciudad de Atlixco”.
+
+El esfuerzo de construcción de nuestro país, pasa por una serie de invasiones. Por ello habrá que recordar también, la defensa que hizo Atlixco en contra de los españoles que intentaban reconquistar a México en 1825; y la intervención que tuvo en 1914 durante la invasión estadounidense en el gobierno de Victoriano Huerta.
+
+La llegada de la industria textil en Atlixco implicó para la región un cambio favorecedor en el estilo de vida; sin embargo, ésta época de desarrollo textil en el valle de Atlixco coincide con el movimiento revolucionario. La influencia del movimiento de Emiliano Zapata en pro de de la tierra, sumó a un gran número de trabajadores inconformes y  líderes de esta lucha revolucionaria de la región como Fortino Ayaquica y Domingo y Cirilo Arenas, que trataron de hacer insurrección en las fábricas textiles, hechos violentos que sucedieron entre 1911 y 1917 en la fábrica textil de Metepec. Incluso, el historiador Jeffrey Bortz, sostiene que los trabajadores de la industria textil del corredor fabril México, Tlaxcala y Atlixco, Puebla, aportaron las principales reivindicaciones laborales que quedaron plasmadas en la Constitución de 1917.</p>
+<a href="https://www.sabersinfin.com/articulos/historia/6710-4-de-mayo-de-1862" target="_self">Leer más </a>
+
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image2','','imagenes/imagen3.png',1)"><img src="imagenes/imagen2.png" width="300" height="162" id="Image2"></a> </div>
+     <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+  </div>
+  </div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+ <div>
+  <img src="imagenes/Mexico-icon.png" width="46" height="46">
+</div>
+<h4>Aplicacion seis,LFO</h4>
+</div>
+</div>
+
+
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+   <h1>5 de Mayo</h1>
+  </div>
+ <div data-role="content" aling="center">
+  <div>
+   <p> En 1857, ocurrió la Guerra de Reforma : un conflicto armado donde los liberales afrontaron los conservadores para impedir que la nueva constitución restituya a los militares y a la Iglesia los privilegios que habían perdido con las Leyes de Reforma. Benito Juárez, gobernador de Oaxaca al momento del conflicto, representaba a los liberales y  Ignacio Comonfort, presidente de la República, representaba a los conservadores. Despues de 3 años, a principio del año 1961, los liberales ganaron la guerra y el Presidente Benito Juárez instauró su gobierno en la Ciudad de México.
+
+Pero despues de 3 años de conflicto, México está  financieramente en ruinas y tiene deudas enormes que los conservadores contrataron con banqueros europeos para  pagar la guerra. La deuda era de 80 millones de pesos; 69 millones para los ingleses, 9 millones para los españoles y 2 millones para Francia.</p></div>
+ <h2> quieres saber mas...</h2>
+    <a href="http://www.dias-festivos-mexico.com.mx/dias-feriados/batalla-puebla/" target="_self">Leer más </a>
+  <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('imagen5','','imagenes/imagen6.png',1)"><img src="imagenes/imagen5.png" width="300" height="168" id="imagen5"></a> </div>
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+    <img src="imagenes/Mexico-icon.png"width="56" height="46">
+  </div>
+  <h4>Aplicacion seis, LFO</h4>
+ </div>
+</div>
+ 
+ 
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-add-back-btn-theme="b"> 
+  <h2>Inicio del conflicto de la batalla</h2>
+  </div>
+  <div data-role="content" aling="center">
+  <div>
+  <p>La Batalla de Puebla fue un enfrentamiento con cede en la ciudad de Puebla el 5 de mayo de 1862, en donde el ejercito mexicano a cargo del general Ignacio Zaragoza, luchó contra el segundo imperio Francés, en lo que se le llamó “Segunda intervención francesa en México“. Sin embargo, los combatientes mexicanos salieron victoriosos de ese conflicto armado que costo la vida de miles de soldados, entre ellos, grandes héroes de la patria.
+
+La Batalla del 5 de Mayo es origen de una conocida leyenda mexicana, la cual se rumoraba tuvo que ver para que las fuerzas mexicanas consiguieran la victoria en ese duro combate. Cuenta la historia que mientras los soldados esperaban la orden para emboscar a los franceses, ellos, acamparon cerca de una gran colina, la cual les proveía de una vista panorámica para estar alerta en caso de que el enemigo se acercará a su posición.</p></div>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image7','','imagenes/imagen8.png',1)"><img src="imagenes/imagen7.png" width="379" height="196" id="Image7"></a>  </div>
+  </div>
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+  <div>
+   <img src="imagenes/Mexico-icon.png"width="46" height="46">
+   </div>
+  <h4>Aplicacion seis, LFO</h4>
+   </div>
+   
+   
+   <div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-add-back-btn-theme="b">
+  <h1>menumentos de la batalla y museos</h1>
+ </div>
+ <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/imagen7.png" alt="imagen7" title="imagen7" id="wows1_0"/></li>
+		<li><img src="data1/images/batalla1.png" alt="batalla1" title="batalla1" id="wows1_1"/></li>
+		<li><img src="data1/images/imagen5.png" alt="imagen5" title="imagen5" id="wows1_2"/></li>
+		<li><img src="data1/images/imagen6.png" alt="imagen6" title="imagen6" id="wows1_3"/></li>
+		<li><img src="data1/images/imagen8.png" alt="imagen8" title="imagen8" id="wows1_4"/></li>
+		<li><img src="data1/images/imagen9.png" alt="imagen9" title="imagen9" id="wows1_5"/></li>
+		<li><a href="http://wowslider.com"><img src="data1/images/imagen10.png" alt="http://wowslider.com/" title="imagen10" id="wows1_6"/></a></li>
+		<li><img src="data1/images/imagen11.png" alt="imagen11" title="imagen11" id="wows1_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="imagen7"><span><img src="data1/tooltips/imagen7.png" alt="imagen7"/>1</span></a>
+		<a href="#" title="batalla1"><span><img src="data1/tooltips/batalla1.png" alt="batalla1"/>2</span></a>
+		<a href="#" title="imagen5"><span><img src="data1/tooltips/imagen5.png" alt="imagen5"/>3</span></a>
+		<a href="#" title="imagen6"><span><img src="data1/tooltips/imagen6.png" alt="imagen6"/>4</span></a>
+		<a href="#" title="imagen8"><span><img src="data1/tooltips/imagen8.png" alt="imagen8"/>5</span></a>
+		<a href="#" title="imagen9"><span><img src="data1/tooltips/imagen9.png" alt="imagen9"/>6</span></a>
+		<a href="#" title="imagen10"><span><img src="data1/tooltips/imagen10.png" alt="imagen10"/>7</span></a>
+		<a href="#" title="imagen11"><span><img src="data1/tooltips/imagen11.png" alt="imagen11"/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">jquery slideshow</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+  <div data-role="content" align="center">
+  <div>
+  </div>
+  </div>
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+  <div>
+   <img src="imagenes/Mexico-icon.png" width="46" height="46">
+  </div>
+  <h4>Aplicacion seis, LFO</h4>
+  </div>
+  </div>
+  
+  
+  <div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-add-back-btn-theme="b">
+  <h1></h1>
+  </div>
+  <div data-role="content" align="center">
+  <div>
+  <h2>Heroes de la batalla:</h2></div>
+<p>Ignacio Zaragoza</p>
+<p>Famoso militar mexicano quen cuando las fuerzas francesas de Napoleón III invadieron México para imponer como emperador a Maximiliano de Habsburgo, con el rango de general y al mando del Ejército de Oriente, las enfrentó en Acultzingo en la llamada Batalla de Las Cumbres de Acultzingo, el 28 de abril de 1862, siendo obligado a retroceder.</p>
+ <img src="imagenes/img1.jpg" width="60%" height="60%">
+ <p>Porfirio Díaz</p>
+ <p>Al producirse la Intervención Norteamericana en México, en el seminario de Oaxaca surgió la inquietud de luchar contra los invasores, idea que fue respaldada y alentada por los sacerdotes y maestros. En octubre de ese año, varios alumnos se dirigieron a ver al gobernador del Estado y solicitarle su ingreso al ejército nacional.</p>
+ <img src="imagenes/img2.jpg" width="60%" height="60%">
+  <p>Miguel Negrete</p>
+  <p>Durante la Segunda Intervención Francesa en México, Negrete hizo a un lado su ideología conservadora y participó en la defensa del territorio mexicano, ante el avance de las tropas francesas hacia el centro de México.</p>
+  <img src="imagenes/img3.jpg" width="60%" height="60%">
+ <div>
+    <img src="imagenes/Mexico-icon.png"width="56" height="46">
+  </div>
+  <h4>Aplicacion seis, LFO</h4>
+  </div>
+  </div>
+</body>
+</html>
